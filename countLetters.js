@@ -23,4 +23,4 @@ const countLetters = function(sentence) {
     
 
 // TEST
-countLetters("lighthouse labs a beacon for career path");
+countLetters("lighthouse in the house");
