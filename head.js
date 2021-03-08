@@ -1,6 +1,6 @@
 //Condensed assertEqual function down to using "require" to pull from original assertEqual file
 
-const assertEqual = require('./assertEqual');
+const assertEqual = require('../assertEqual');
 
 //Head 
 
