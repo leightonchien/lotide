@@ -1,16 +1,14 @@
-const assertEqual = function(actual, expected) {
-    if (actual === expected) {
-      console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-    } else {
-      console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-    }
-  };
+//Condensed assertEqual function down to using "require" to pull from original assertEqual file
 
-const assertEqual = require("./assertEqual");
+const assertEqual = require('./assertEqual');
+
+//Head 
 
 function head(array) {
   return array[0];
 }
+
+
 module.exports = head;
 
 // console.log([]);
