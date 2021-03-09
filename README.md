@@ -26,7 +26,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
- `head(array)`: returns the first element of an array
+- `head(array)`: returns the first element of an array
 - `tail(array)`: returns the last element of an array
 - `middle(array)`: returns the middle element of an array, if even return both.
 - `countLetters(string)`: given a string of letters return an object with the letters/ count of each
